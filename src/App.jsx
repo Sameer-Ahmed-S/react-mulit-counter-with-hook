@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import ParentCounter from "./Counter";
 
 function App() {
   return (
     <div className="App">
-      // Add code here....
+      <ParentCounter />
     </div>
   );
 }
